@@ -1,26 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2021-07-28T07:44:54.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="eVpp19guICwAMzjRD5Lv" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-28T08:15:53.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="s7CyM-jJX7kqQ0SdLTbT" version="14.9.2" type="github">
   <diagram id="3mDoodbUwuJOSCma7foD" name="Page-1">
-    <mxGraphModel dx="1022" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g24CAGB-Cl9b9uOjVEaq-1" value="Game Field" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="-120" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-7" value="Main camera view" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="g24CAGB-Cl9b9uOjVEaq-1">
+          <mxGeometry x="45" y="30" width="110" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="g24CAGB-Cl9b9uOjVEaq-2" value="Input Manager" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="520" y="120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-24" value="Keyboard, mouse, game contoller&lt;br&gt;inputs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="g24CAGB-Cl9b9uOjVEaq-2">
+          <mxGeometry x="5" y="35" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g24CAGB-Cl9b9uOjVEaq-3" value="Bricks" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-18" value="different types of bricks&lt;br&gt;some disappear after multiple hits&lt;br&gt;&lt;br&gt;&lt;br&gt;adding particles when hit&lt;br&gt;&lt;br&gt;keep score when hit&lt;br&gt;&lt;br&gt;levels?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="g24CAGB-Cl9b9uOjVEaq-3">
+          <mxGeometry y="40" width="190" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="g24CAGB-Cl9b9uOjVEaq-4" value="Game Controller" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="280" y="120" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="g24CAGB-Cl9b9uOjVEaq-5" value="Paddle" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-5" value="Ball" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="520" y="-120" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="g24CAGB-Cl9b9uOjVEaq-6" value="Ball" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-12" value="Bounce off the paddle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="g24CAGB-Cl9b9uOjVEaq-5">
+          <mxGeometry x="20" y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-14" value="Wall constaints right left up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="g24CAGB-Cl9b9uOjVEaq-5">
+          <mxGeometry x="20" y="120" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-6" value="Paddle" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="280" y="-120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-8" value="Background setting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-9" value="with sprite or import image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-10" value="Back and forth movements" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-11" value="No exceeding camera view" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-13" value="Rigid body and Collider" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-15" value="Goes down-&amp;gt; end the game" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-16" value="Start-restart- quit game loops" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-17" value="Scores and lives" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="190" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-21" value="OR Reappear" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-22" value="Referenced in ball" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="g24CAGB-Cl9b9uOjVEaq-23" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Container%22%20style%3D%22swimlane%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2220%22%20y%3D%22-120%22%20width%3D%22200%22%20height%3D%22200%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Container%22%20style%3D%22swimlane%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2220%22%20y%3D%22-120%22%20width%3D%22200%22%20height%3D%22200%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
